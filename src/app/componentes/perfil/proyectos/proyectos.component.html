@@ -1,0 +1,29 @@
+<div class="body">
+    <hr>
+    <div class="container text-left py-4">
+        <!-- Titulo Seccion -->
+        <div class="row section-title">
+            <h2>Proyectos</h2>
+        </div>
+
+        <!-- Experiencias -->
+        <div class="row py-2 section-title" *ngFor="let proyecto of dataLocal.proyectos">
+            <hr>
+            <div class="col-12 col-md-8">
+                <div class="about-profile focus-in-contract">
+                    <h3 style="font-weight: bold;">{{proyecto.nombre}}</h3>
+                    <p>
+                        {{proyecto.descripcion}}
+                    </p>
+
+                    <p>
+                        {{proyecto.sistema}}
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

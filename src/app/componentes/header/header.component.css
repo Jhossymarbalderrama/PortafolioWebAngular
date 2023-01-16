@@ -1,0 +1,23 @@
+*{
+    font-weight: 600;
+    font-family: monospace;
+    /* font-family: cursive; */
+    /* text-shadow: black 0.1em 0.1em 0.2em  */
+}
+
+.btn-social{
+    cursor: pointer;
+    color: white;
+}
+
+.btn-in:hover{
+    color: #2979CA;
+}
+
+.btn-git:hover{
+    color: #a3a3a3;
+}
+
+.btn-ig:hover{
+    color: #e20e47;   
+}

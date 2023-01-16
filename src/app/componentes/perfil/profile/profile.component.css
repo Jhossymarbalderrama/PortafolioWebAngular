@@ -1,0 +1,219 @@
+*{
+    /* font-family: cursive; */
+    font-family: monospace;
+    color: #494949;
+    text-shadow: #969696 0.1em 0.1em 0.2em 
+}
+
+textarea {
+  /* margin:0px 0px; this is redundant anyways since its specified below*/
+  padding-top:10px;
+  padding-bottom:25px; /* increased! */
+  /* height:16px; */
+  /* line-height:16px; */
+  width:100%; /* changed from 96 to 100% */
+  display:block;
+  /* margin:0px auto; not needed since i have width 100% now */
+}
+
+.background-profile{
+    /* background-color: white !important; */
+    overflow: hidden;
+    z-index: 2; 
+}
+
+.container{
+    margin-top: 8em;
+    margin-bottom: 2em;
+}
+
+.profile{    
+    z-index: 4;    
+    width: 13em;
+    /* padding: 0 0.5em; */
+    /* margin-left:  10%; */
+    margin-top: -15.5em;
+}
+
+.about-profile{
+    z-index: 4;
+    /* margin-top: -6em; */
+    margin-left: 2em;
+    font-weight: 600;
+    margin-bottom: 3em;
+}
+
+.about-profile > p{
+    font-size: 20px;    
+}
+
+.userName{
+    font-size: 20px;
+    color: #00358E;
+}
+
+.developer{
+    font-size: 18px;  
+}
+
+.profile-picture{
+    z-index: 4;
+    border-radius: 100%;
+    border: 7px solid white;
+}
+
+.btn-edit{
+  position: absolute;  
+  min-width: 42px;
+  min-height: 42px;
+
+  z-index: 999;
+}
+
+.btn-edit:hover{
+  transform: scale(1.1);
+}
+
+.btn-edit:active{
+  transform: scale(0.9);
+}
+
+.btn-edit-portada{
+  margin-top: 1em;  
+  right: 2%;
+}
+
+.btn-edit-perfil{    
+  margin-top: 3.8em;     
+  margin-left: 3.8em;
+}
+
+.btn-edit-info{    
+  margin-top: -1em;     
+  margin-left: 8.5em;
+}
+
+.btn-edit-about{    
+  margin-top: -1em;     
+  right: 2%;
+}
+
+/* .img-perfil > img:hover{
+  filter: brightness(70%);
+} */
+
+.icon{
+  cursor: pointer;
+  font-size: 28px;  
+  background-color: orange;
+
+  border-radius: 100%;
+}
+
+.icon > .icon-style{
+  
+  color: white;
+}
+
+
+
+.info{    
+    width: 240px;
+    text-align: center;
+        
+    font-weight: bold;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    
+    /* font-family:'Courier New', Courier, monospace; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif;    */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */    
+    /* font-family: fantasy; */
+    /* font-family: monospace; */
+    /* font-family: sans-serif; */
+    /* font-family: serif; */
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    
+}
+
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+  .focus-in-contract {
+	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  

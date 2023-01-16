@@ -1,0 +1,74 @@
+{
+    "nombre": "Jhossymar",
+    "apellido": "Balderrama Rocha",
+    "edad": 24,
+    "telefono": 42015260,
+    "celular": 1163079082,
+    "email": "jhossymarbalderrama@gmail.com",
+    "titulo": "Full Stack Developer Jr",
+    "sobreMi": "Mi nombre es Balderrama Rocha Jhossymar, tengo 24 años, soy de Avellaneda (Buenos Aires), actualmente estoy termiando la carreda de Técnioco Universitario en Programacion en la UTN de Avellaneda.",
+    "redesSociales": 
+        {
+            "linkedin": "www.linkedin.com/in/balderrama-rocha-jhossymar",
+            "github": "https://github.com/Jhossymarbalderrama",
+            "instagram": "https://www.instagram.com/blackjhossy",
+            "facebook":"https://www.facebook.com/jhossymar.balderrama",
+            "twitter":"https://mobile.twitter.com/JhossymarB"
+        }
+    ,
+    "experiencia": [
+        {
+            "empresa": "CA-VLB s.a - Developer",
+            "descripcion": "Genexus Evolution 2, 3",
+            "aneos": "2016 - 2019",
+            "direccion": "Anatole France 123, Sarandi. Avellaneda - Bs As - Argentina",
+            "logo": "../assets/img/logo/vlb.png"
+        },
+        {
+            "empresa": "CA-VLB s.a - Developer Web",
+            "descripcion": "Joomla v2.0 - v3.10",
+            "aneos": "2017 - 2019",
+            "direccion": "Anatole France 123, Sarandi. Avellaneda - Bs As - Argentina",
+            "logo": "../assets/img/logo/vlb.png"
+        }
+    ],
+    "educacion": [
+        {
+            "establecimiento": "#Argentina Programa 4.0",
+            "titulo":"Full Stack Developer Jr",
+            "descripcion": "Actualmente Cursando",
+            "aneos": "2022 - ∞",
+            "direccion": "Curso Online",
+            "logo": "../assets/img/logo/ArgPro.png"
+        },
+        {
+            "establecimiento": "UTN Fra Avellaneda",
+            "titulo": "Tecnico Universitario en Programacion",
+            "descripcion": "Terminando estudios",
+            "aneos": "2022 - ∞ (2023)",
+            "direccion": "Av. Mitre 750 (C1870ART) Avellaneda, Buenos Aires, Argentina",
+            "logo":"../assets/img/logo/identidad_UTN_bg.png"
+        },
+        {
+            "establecimiento": "Escuela Secundaria Tecnica Nº1",
+            "titulo": "Tecnico en Programacion",
+            "descripcion": "Tecnico en Programacion",
+            "aneos": "2010 - 2017",
+            "direccion": "Leandro Alem 1910, Dock Sud (Avellaneda) - Buenos Aires - Argentina",
+            "logo":"../assets/img/logo/EESTLogo.png"
+        }
+    ],
+    "proyectos": [
+        {
+            "nombre": "Clinica Online",
+            "descripcion": "Pagina web para una Clinica que esta hecho con el framework Angular, que cuenta con un sistema de turnos online.",
+            "sistema": "Desarrollado con Angular y Firebase."
+        },
+        {
+            "nombre": "Portafolio Web - #ArgentinaPrograma",
+            "descripcion": "Mi Portafolio Web hecho con el framework Angular",
+            "sistema": "Desarrollo de mi Portafolio Web con Angular"
+        }
+    ]
+
+}

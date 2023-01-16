@@ -1,0 +1,42 @@
+<div class="body">   
+    <hr>   
+    <div class="container text-left py-4"> 
+        <!-- Titulo Seccion -->
+        <div class="row section-title">
+            <h2>Formación Académica</h2>
+        </div>
+
+        <!-- Experiencias -->
+        <div class="row py-2" *ngFor="let educa of dataLocal.educacion">
+            <hr>
+            <div class="col-md-4" align="center">
+                <div class="py-3">
+                    <!-- <img src="../../../assets/img/material/foto-perfil.jpg"  width="300" height="150px"> -->
+
+                    <div class="card-exp">
+                        <div class="card-text">
+                            <img src="{{educa.logo}}"  width="200px" height="150px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-md-8">
+                <div class="about-profile focus-in-contract">
+                    <h3 style="font-weight: bold;">{{educa.establecimiento}}</h3>
+                    <p>
+                        {{educa.titulo}}
+                    </p>
+
+                    <p>
+                        {{educa.descripcion}} {{educa.aneos}} / {{educa.direccion}}
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+

@@ -1,0 +1,68 @@
+<div class="body">   
+    <hr>   
+    <div class="container text-left py-4"> 
+        <!-- Titulo Seccion -->
+        <div class="row section-title">
+            <h2>Experiencia Laboral</h2>
+        </div>
+
+        <!-- Experiencias -->
+
+        <div class="row py-2" *ngFor="let experiencia of dataLocal.experiencia">
+            <hr>
+            <div class="col-md-4" align="center">
+                <div class="py-3">
+                    <!-- <img src="../../../assets/img/material/foto-perfil.jpg"  width="300" height="150px"> -->
+
+                    <div class="card-exp">
+                        <div class="card-text">
+                            <img src="{{experiencia.logo}}"  width="150px" height="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-md-8">
+                <div class="about-profile focus-in-contract">
+                    <h3 style="font-weight: bold;">{{experiencia.empresa}}</h3>
+                    <p>
+                        {{experiencia.descripcion}}
+                    </p>
+
+                    <p>
+                        {{experiencia.aneos}}
+                    </p>
+
+                    <p>
+                        {{experiencia.direccion}}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row py-2">
+            <hr>
+            <div class="col-md-4" align="center">
+                <div class="py-2">
+              
+                    <div class="card-exp">
+                        <div class="card-text">
+                            Agregar Foto
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-12 col-md-8">
+                <div class="about-profile focus-in-contract">
+                    <h3 style="font-weight: bold;">Experiencia</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+            </div>
+        </div> -->
+        
+    </div>
+</div>
+

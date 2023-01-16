@@ -1,0 +1,23 @@
+*{
+    font-size: 18px;
+    
+}
+
+.shareFB:hover{
+    cursor: pointer;
+    color: #0059ff;
+}
+
+.shareIG:hover{
+    cursor: pointer;
+    color: #ff008c;
+}
+
+.shareTW:hover{
+    cursor: pointer;
+    color: #29a1fc;
+}
+
+.container{
+    margin-top: -1em;
+}
